@@ -1,9 +1,8 @@
 #!/usr/bin/python3 
 import unittest
 import os
-import datetime
 
-from pytapir import Tapir
+from tapyr import Tapir
 
 session = Tapir("127.0.0.1", "3583")
 root = session.node("/root")
