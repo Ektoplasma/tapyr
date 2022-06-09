@@ -10,7 +10,6 @@ setup(
     author_email='',
     description='Python binding for TAPIR',
     install_requires=[
-        "setuptools~=58.1.0",
         "requests~=2.27.1"
     ]
 )
